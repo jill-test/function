@@ -9,3 +9,12 @@ def sum_of_list(num):
     return sum(num)
 
 print(sum_of_list([1, 2, 3]))
+
+
+def sum_of_list2(numbers):
+    sum_number = 0
+    for n in numbers:
+        sum_number += n
+    return sum_number
+
+print(sum_of_list2([1, 2, 3]))
